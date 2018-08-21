@@ -1,0 +1,190 @@
+<html>
+    <head>
+        <title>Bound</title>
+        
+        
+        
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/p5.js"></script>
+
+    </head>
+    
+    
+    <body>
+        <div id="website-contraint" class="toshow" style="display:none;">
+            
+            <div id="website-title">
+                <a href="main.html">YOON PARK</a>
+            </div>
+            <div id="about">
+                <a href="">ABOUT</a>
+            </div> 
+            
+            <div id="resume">
+                <a href="resume.html">RESUME</a>
+            </div>  
+            
+            <div class="clear"></div>
+            
+            <div class="side-menu-constraint">
+                <p><a href="">PORTFOLIO 1</a></p>
+                <p>PORTFOLIO 2</p>
+                <p>PORTFOLIO 3</p>
+                <p>PORTFOLIO 4</p>
+                <p><a href="immersive-exp.html">IMMERSIVE EXPERIENCE</a></p>
+                <p><a href="interactive-film.html">INTERACTIVE FILM</a></p>
+                <p>PORTFOLIO 8</p>
+                <p>PORTFOLIO 9</p>
+            </div>
+            
+            
+            <!--TYPOGRAPHY CONTENT-->
+            
+            <div id="portfolio-1-content-container">
+                <div id="title-1">
+                    Bound Budget App
+                </div>
+                
+                <div class="clear"></div>
+                
+                <div id="title-1-content">
+                    
+                    <strong>PERSONAL PROJECT</strong>
+                    
+                    
+                    <br><br>
+                    
+                    <strong>Brainstorming Questions</strong>
+                    
+                    <br><br>
+                    What is the purpose and why?
+                    Who is the audience?
+                    What sets this apart from other apps on the market?
+                    What are the essential components to budgeting?
+                    How is the usability?
+                    
+                    
+                    <br><br><br><br>
+                    
+                    <strong>Branding</strong>
+                    
+                    <br><br>
+                    Bound is taken from the fundamental idea to conserve and spend smartly. 
+                    
+                    <br><br>
+                    
+                    The brand requires necessary research for the customer to purchase the products for personal skin type and concern.
+                    <br><br><br><br>
+                    
+                    <strong>Creative Vision of the App</strong>
+                    
+                    <br><br>
+                    To solve the problem, I have brainstormed an app which allows for more customer interaction with the company. 
+                    
+                    <br><br>
+                    
+                    Other than performing as an online market, the app includes the Match Studio where the user inputs information about their skin. With this information, the brand suggests products targeting different concerns, carefully explaining what the product does, and the directions of application. 
+                    
+                    <br><br>
+                    The Match Studio strengthens user and brand interaction. The Ordinary app's overarching goal is to allow the user to be fully engaged and comfortable with the navigation and act as a digital dermatologist to match their skin to The Ordinary's products.
+                    <br><br>
+                               
+                    
+                </div>
+                
+                <div class="clear"></div>
+                
+                          
+                <br><br>
+                
+                <button id="button-1" class="w3-button" onclick="plusDivs(-1)">&#10094; </button>
+            
+                <img class="slides" src="bound-main.jpg">
+                <img class="slides" src="bound-1.jpeg">
+                <img class="slides" src="bound-2.jpeg">
+                <img class="slides" src="bound-3.jpeg">
+                <img class="slides" src="bound-4.jpeg">
+                <img class="slides" src="bound-5.jpeg">
+              
+                
+                <button id="button-1" class="w3-button" onclick="plusDivs(1)"> &#10095;</button>
+                
+                <div class="clear"></div>
+                
+                <div id= "button-position-bound">
+                <button class="format w3-button demo" onclick="currentDiv(1)">1</button> 
+                <button class="format w3-button demo" onclick="currentDiv(2)">2</button> 
+                <button class="format w3-button demo" onclick="currentDiv(3)">3</button>
+                <button class="format w3-button demo" onclick="currentDiv(4)">4</button>
+                <button class="format w3-button demo" onclick="currentDiv(5)">5</button>
+                <button class="format w3-button demo" onclick="currentDiv(6)">6</button>
+               
+                </div>
+
+                
+                <br><br><br><br>
+                
+                <img src="bound-mock1.jpg" class ="img-breaks" width="990px">
+                <img src="bound-mock2.jpg" class ="img-breaks" width="990px">
+    
+            </div>
+            
+            <script type="text/javascript">
+                
+                $(document).ready(function () {
+                    
+                    $('div.toshow').fadeIn(1100);
+                    //$('div.toshow').show(2200);
+                    //$('div.toshow').slideDown("slow");
+                    
+                });
+                
+                $(window).scroll(function() {
+                    $('div.pageTrans').fadeIn(1000);
+                });
+                
+                var slideIndex = 1;
+                showDivs(slideIndex);
+
+                function plusDivs(n) {
+                  showDivs(slideIndex += n);
+                }
+
+                function currentDiv(n) {
+                  showDivs(slideIndex = n);
+                }
+
+                function showDivs(n) {
+                  var i;
+                  var x = document.getElementsByClassName("slides");
+                  var dots = document.getElementsByClassName("demo");
+                  if (n > x.length) {
+                      slideIndex = 1
+                  }    
+                  if (n < 1) {
+                      slideIndex = x.length
+                  }
+                  for (i = 0; i < x.length; i++) {
+                     x[i].style.display = "none";  
+                  }
+                    
+                  for (i = 0; i < dots.length; i++) {
+                     dots[i].className = dots[i].className.replace(" w3-red", "");
+                  }
+                  
+                  x[slideIndex-1].style.display = "block";  
+                   dots[slideIndex-1].className += " w3-red";
+                }
+            
+            </script>       
+        </div>
+        
+    </body>
+    
+    
+    
+</html>
