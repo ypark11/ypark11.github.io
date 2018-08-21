@@ -1,0 +1,107 @@
+<html>
+    <head>
+        <title>Interactive Film</title>
+        
+        
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    </head>
+    
+    <body>
+        <div id="website-contraint" class="toshow" style="display:none;">
+            
+            <div id="website-title">
+                <a href="main.html">YOON PARK</a>
+            </div>
+            <div id="about">
+                <a href="">ABOUT</a>
+            </div> 
+            
+            <div id="resume">
+                <a href="resume.html">RESUME</a>
+            </div>  
+            
+            <div class="clear"></div>
+            
+           <div class="side-menu-constraint">
+                <p><a href="immersive-exp.html">IMMERSIVE EXPERIENCE</a></p>
+                <p>PORTFOLIO 1</p>
+                <p>PORTFOLIO 2</p>
+                <p>PORTFOLIO 3</p>
+                <p>PORTFOLIO 4</p>
+                <p>PORTFOLIO 5</p>
+                <p><a href="interactive-film.html">INTERACTIVE FILM</a></p>
+                <p>PORTFOLIO 7</p>
+                <p>PORTFOLIO 8</p>
+            </div>
+            
+            
+            <!--PORTFOLIO 1 CONTENT-->
+            
+            <div id="portfolio-1-content-container">
+                <div id="title-1">
+                    IMMERSIVE EXPERIENCE: METAMORPHOSIS
+                </div>
+                
+                <div class="clear"></div>
+                
+                <div id="title-1-content">
+                    <strong>UCLA DMA MOTION</strong>
+                    <br>
+                    <br>
+                    Exploring the stage between beginning of life and birth, Methamorphosis brings the audience to a world of protection, silence, and warmth. This stage is an unexplored world that determines blessing of life that every person has experienced, yet they do not have any memory of.
+               
+                    <div id="line-breaker"></div>
+                    Instructor: <strong>Refik Anadol</strong> || Teaching Assistant: <strong>Jack Turpin</strong>
+                    <div id="line-breaker-bottom"></div>
+                </div>
+                
+                <div class="clear"></div>
+                
+               
+                    
+                <img src="immersiveexp-img1.jpg" width="990px">
+                <img src="immersiveexp.png" width="990px">
+                <img src="immersiveexp-img2.jpg" width="990px">
+                <img src="immersiveexp-img3.jpg" width="990px">
+                    
+                
+                
+                <video width="990px" controls>
+                    <source src="immersiceExp.mp4" type="video/mp4">
+                </video>
+                
+                <br><br><br><br>
+    
+            </div>
+            
+            <script type="text/javascript">
+                
+                $(document).ready(function () {
+                    
+                    $('div.toshow').fadeIn(1200);
+                    //$('div.toshow').show(2200);
+                    //$('div.toshow').slideDown("slow");
+                    
+                });
+                
+                $(window).scroll(function() {
+                    $('div.pageTrans').fadeIn(1000);
+                });
+            
+            </script>
+    
+            
+            
+        </div>
+        
+        
+    </body>
+    
+    
+    
+</html>
