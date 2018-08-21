@@ -1,0 +1,116 @@
+<html>
+    <head>
+        <title>Virtual Reality</title>
+        
+        
+        
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/p5.js"></script>
+
+    
+    </head>
+    
+    <body>
+        <div id="website-contraint" class="toshow" style="display:none;">
+            
+            <div id="website-title">
+                <a href="main.html">YOON PARK</a>
+            </div>
+            <div id="about">
+                <a href="">ABOUT</a>
+            </div> 
+            
+            <div id="resume">
+                <a href="resume.html">RESUME</a>
+            </div>  
+            
+            <div class="clear"></div>
+            
+            <div class="side-menu-constraint">
+                <p><a href="">PORTFOLIO 1</a></p>
+                <p>PORTFOLIO 2</p>
+                <p>PORTFOLIO 3</p>
+                <p>PORTFOLIO 4</p>
+                <p><a href="immersive-exp.html">IMMERSIVE EXPERIENCE</a></p>
+                <p><a href="interactive-film.html">INTERACTIVE FILM</a></p>
+                <p>PORTFOLIO 8</p>
+                <p>PORTFOLIO 9</p>
+            </div>
+            
+            
+            <!--PORTFOLIO 1 CONTENT-->
+            
+            <div id="portfolio-1-content-container">
+                <div id="title-1">
+                    VIRTUAL REALITY - INFINITY ROOM
+                </div>
+                
+                <div class="clear"></div>
+                
+                <div id="title-1-content">
+                    <strong>UCLA DMA MOTION</strong>
+                    <br>
+                    <br>
+                    Taking advantage of the concept of inifinity room, the project focused on motion that fully immerses the viewer to the room. The concept of VR infinity room challenged the process of creating an environment that amplifies the features of the infinity room while communicating content and concept of the artist.
+               
+                    <div id="line-breaker"></div>
+                    Instructor: <strong>Refik Anadol</strong> || Teaching Assistant: <strong>Jack Turpin</strong>
+                    <div id="line-breaker-bottom"></div>
+                </div>
+                
+                <div class="clear"></div>
+                
+               
+                
+                
+                <br><br>
+                <img src="vr-01.png" class ="img-breaks" width="990px">
+                <img src="vr-02.png" class ="img-breaks" width="990px">
+                <img src="vr-03.png" class ="img-breaks" width="990px">
+                <img src="vr-04.png" class ="img-breaks" width="990px">
+                
+                
+                <video class ="img-breaks" width="990px" controls>
+                    <source src="vr-pov.mp4" type="video/mp4">
+                </video>
+                
+                
+                <video class ="img-breaks" width="990px" controls>
+                    <source src="vr-ae.mp4" type="video/mp4">
+                </video>
+                    
+                
+                <br><br><br><br>
+    
+            </div>
+            
+            <script type="text/javascript">
+                
+                $(document).ready(function () {
+                    
+                    $('div.toshow').fadeIn(1100);
+                    //$('div.toshow').show(2200);
+                    //$('div.toshow').slideDown("slow");
+                    
+                });
+                
+                $(window).scroll(function() {
+                    $('div.pageTrans').fadeIn(1000);
+                });
+            
+            </script>
+    
+            
+            
+        </div>
+        
+        
+    </body>
+    
+    
+    
+</html>
