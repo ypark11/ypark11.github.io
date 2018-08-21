@@ -1,0 +1,108 @@
+<html>
+    <head>
+        <title>Bloop</title>
+        
+        
+        
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/p5.js"></script>
+
+    
+    </head>
+    
+    <body>
+        <div id="website-contraint" class="toshow" style="display:none;">
+            
+            <div id="website-title">
+                <a href="main.html">YOON PARK</a>
+            </div>
+            <div id="about">
+                <a href="">ABOUT</a>
+            </div> 
+            
+            <div id="resume">
+                <a href="resume.html">RESUME</a>
+            </div>  
+            
+            <div class="clear"></div>
+            
+            <div class="side-menu-constraint">
+                <p><a href="">PORTFOLIO 1</a></p>
+                <p>PORTFOLIO 2</p>
+                <p>PORTFOLIO 3</p>
+                <p>PORTFOLIO 4</p>
+                <p><a href="immersive-exp.html">IMMERSIVE EXPERIENCE</a></p>
+                <p><a href="interactive-film.html">INTERACTIVE FILM</a></p>
+                <p>PORTFOLIO 8</p>
+                <p>PORTFOLIO 9</p>
+            </div>
+            
+            
+            <!--PORTFOLIO 1 CONTENT-->
+            
+            <div id="portfolio-1-content-container">
+                <div id="title-1">
+                    BLOOP - Game Development
+                </div>
+                
+                <div class="clear"></div>
+                
+                <div id="title-1-content">
+                    <strong>UCLA DMA INTERACTIVITY</strong>
+                    <br>
+                    <br>
+                    <strong>Instructions:</strong>
+                    Use the left and right arrow keys to guide Bloop across the obstacles.
+                    
+                    
+               
+                    <div id="line-breaker"></div>
+                    Instructor: <strong>Casey Reas</strong> || Teaching Assistant: <strong>Alice Chung</strong>
+                    <div id="line-breaker-bottom"></div>
+                </div>
+                
+                <div class="clear"></div>
+                
+                
+               <iframe src="http://alpha.editor.p5js.org/embed/BJ0wlzXJ7" width="600px" height="600px" frameBorder="0" scrolling="no"></iframe>
+                
+                
+                <br><br>
+                <img src="bloop-storyboard.jpg" class ="img-breaks" width="990px">
+                
+                    
+                
+                <br><br><br><br>
+    
+            </div>
+            
+            <script type="text/javascript">
+                
+                $(document).ready(function () {
+                    
+                    $('div.toshow').fadeIn(1100);
+                    //$('div.toshow').show(2200);
+                    //$('div.toshow').slideDown("slow");
+                    
+                });
+                
+                $(window).scroll(function() {
+                    $('div.pageTrans').fadeIn(1000);
+                });
+            
+            </script>
+    
+            
+            
+        </div>
+        
+        
+    </body>
+    
+    
+    
+</html>
