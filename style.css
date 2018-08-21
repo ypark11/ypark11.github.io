@@ -1,0 +1,294 @@
+
+
+.clear{
+    clear:both;
+}
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    color:#777777;
+}
+
+a:link{
+    color:#777777;
+    text-decoration: none;
+}
+a:visited{
+    color:#777777;
+}
+
+a:hover{
+    color:#494949;
+    font-weight: bold;
+}
+
+#website-contraint{
+    width: 1200px;
+    height: 39px;
+    margin: 0 auto;
+    margin-top:65px;
+}
+
+#website-title{
+    font-size: 32px;
+    position: relative;
+    float: left;
+}
+#website-title a:hover{
+    font-weight: normal;
+    color:#777777;
+}
+
+#resume{
+    position:relative;
+    float:right;
+    padding-top: 12.5px;
+    padding-right: 10px;
+    font-size: 13px;
+}
+
+#about{
+    position:relative;
+    float:right;
+    padding-top: 12.5px;
+    padding-left: 50px;
+    font-size: 13px;
+}
+
+.side-menu-constraint{
+    margin-top: 33.8px;
+    width:170px;
+    position:relative;
+    float:left;
+    font-size:13px;
+    line-height: 17px;
+}
+
+
+img{
+    max-width:100%;
+    max-height: :100%;
+}
+#image-constraint{
+    width:990px;
+    height:557.68px;
+    float:right;
+    margin-top:33.8px;
+}
+
+.img-container{
+    float:right;
+    width:300px;
+    height:180px;
+    padding: 10px;
+    float:right;
+}
+
+/*WELCOME INTRO PAGE*/
+
+
+#intro-name a:link{
+    color:#66a5d6;
+    
+}
+
+#intro-name a:visited{
+    color:#66a5d6;
+    
+}
+
+#intro-name a:hover{
+    color:#494949;
+}
+
+#intro-name{
+    font-size: 32px;
+    position: relative;
+    float: left;
+    font-weight:bold;
+}
+
+#intro-body{
+    margin-top: 33.8px;
+    width:724px;
+    height: 200px;
+    position:relative;
+    float:left;
+    font-size:30px;
+    font-weight:500;
+    line-height: 38px;
+}
+
+#line{
+    background-color:#c6c6c6;
+    margin-top: 280px;
+    margin-bottom:1px;
+    height:1px;
+    width:1067.26px;
+}
+
+#line-bottom{
+    background-color:#c6c6c6;
+    height:1px;
+    width:1067.26px;
+    margin-top:1px;
+}
+
+
+#date{
+    font-size:13px;
+    margin:none;
+    padding-left: 8px;
+}
+
+
+
+
+/*PORTFOLIO 1 STYLE SHEET*/
+#resume-img{
+    margin-top: 40px;
+    margin-bottom: 120px;
+    width: 800px;
+}
+
+#resume-download{
+    float:left;
+    margin-top:20px;
+    font-size: 12px;
+    font-weight:bolder;
+    text-decoration: underline;
+}
+
+
+
+/*PORTFOLIO 1 STYLE SHEET*/
+
+#portfolio-1-content-container{
+    float:right;
+    position:relative;
+    width:990px;
+    height:557.68px;
+    float:right;
+    margin-top:43px;
+}
+
+#title-1{
+    float:left;
+    font-size: 24px;
+}
+
+#title-1-content{
+    float:left;
+    margin-top:20px;
+    font-size: 14px;
+    width: 550px;
+    letter-spacing: none;
+    font-weight:lighter;
+    line-height: 17px;
+}
+
+#title-1-pic{
+    float:left;
+    margin-top: 60px;
+    width:990px;
+    height:1000px;
+    background-color:grey;
+}
+
+#line-breaker{
+    background-color:#c6c6c6;
+    height:1px;
+    width:990px;
+    margin-top:30px;
+    margin-bottom:10px;
+}
+#line-breaker-bottom{
+    background-color:#c6c6c6;
+    height:1px;
+    width:990px;
+    margin-top:10px;
+    margin-bottom: 30px;
+}
+
+.img-breaks{
+    margin: 8px 0px;
+}
+
+
+/*SLIDER*/
+.slides{
+    float: left;
+    width: 400px;
+    padding: none 23px;
+    
+}
+
+button{
+    background-color: #777777; 
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 8px;
+    font-size: 15px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: slateblue; /* Green */
+    color: white;
+    cursor:pointer;
+}
+
+
+
+
+
+#button-1{
+    float:left;
+    margin-top: 280px;
+    margin-left: none;;
+    margin-right: none;
+    padding-right:none;
+}
+
+.format{
+    margin:5px;
+    padding: auto;
+}
+
+#button-position{
+    margin-top: 18px;
+    margin-left: 90px;
+}
+
+#button-position-bound{
+    margin-top: 18px;
+    margin-left: 90px;
+}
+
+/*OLIVE BISTRO*/
+#olive-link{
+    text-decoration: underline;
+    font-style: italic;
+}
+
+#olive-link a:visited{
+    color: #236ea0;
+}
+#olive-link a:hover{
+    color: #4593c6;
+}
+
+
+
+
+
+
+
+
+
