@@ -1,0 +1,110 @@
+<html>
+    <head>
+        <title>Interactive Film</title>
+        
+        
+        
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/p5.js"></script>
+
+    
+    </head>
+    
+    <body>
+        <div id="website-contraint" class="toshow" style="display:none;">
+            
+            <div id="website-title">
+                <a href="main.html">YOON PARK</a>
+            </div>
+            <div id="about">
+                <a href="">ABOUT</a>
+            </div> 
+            
+            <div id="resume">
+                <a href="resume.html">RESUME</a>
+            </div>  
+            
+            <div class="clear"></div>
+            
+            <div class="side-menu-constraint">
+                <p><a href="">PORTFOLIO 1</a></p>
+                <p>PORTFOLIO 2</p>
+                <p>PORTFOLIO 3</p>
+                <p>PORTFOLIO 4</p>
+                <p><a href="immersive-exp.html">IMMERSIVE EXPERIENCE</a></p>
+                <p><a href="interactive-film.html">INTERACTIVE FILM</a></p>
+                <p>PORTFOLIO 8</p>
+                <p>PORTFOLIO 9</p>
+            </div>
+            
+            
+            <!--PORTFOLIO 1 CONTENT-->
+            
+            <div id="portfolio-1-content-container">
+                <div id="title-1">
+                    INTERACTIVE FILM
+                </div>
+                
+                <div class="clear"></div>
+                
+                <div id="title-1-content">
+                    <strong>UCLA DMA INTERACTIVITY</strong>
+                    <br>
+                    <br>
+                    Camellia combines antique mood of an old film while incorporating interactive elements that guides the users to unravel the story. The users have complete control of the choices they make in this nonlinear exploration film to parallel the choices that the two character makes in their relationship.
+               
+                    <div id="line-breaker"></div>
+                    Instructor: <strong>Casey Reas</strong> || Teaching Assistant: <strong>Alice Chung</strong>
+                    <div id="line-breaker-bottom"></div>
+                </div>
+                
+                <div class="clear"></div>
+                
+               
+                
+                
+                <br><br>
+                <img src="film-storyboard.jpg" class ="img-breaks" width="990px">
+                <img src="film-01.png" class ="img-breaks" width="990px">
+                <img src="film-02.png" class ="img-breaks" width="990px">
+                <img src="film-03.png" class ="img-breaks" width="990px">
+                <img src="film-04.png" class ="img-breaks" width="990px">
+                <img src="film-05.png" class ="img-breaks" width="990px">
+                <img src="film-06.png" class ="img-breaks" width="990px">
+                <img src="film-07.png" class ="img-breaks" width="990px">
+                    
+                
+                <br><br><br><br>
+    
+            </div>
+            
+            <script type="text/javascript">
+                
+                $(document).ready(function () {
+                    
+                    $('div.toshow').fadeIn(1100);
+                    //$('div.toshow').show(2200);
+                    //$('div.toshow').slideDown("slow");
+                    
+                });
+                
+                $(window).scroll(function() {
+                    $('div.pageTrans').fadeIn(1000);
+                });
+            
+            </script>
+    
+            
+            
+        </div>
+        
+        
+    </body>
+    
+    
+    
+</html>
