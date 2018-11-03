@@ -397,7 +397,7 @@ button:hover {
     line-height: 0.8;
 }
 .static {
-  position:static;
+  position:absolute;
   background: white;
 
 }
