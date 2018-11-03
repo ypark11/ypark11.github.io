@@ -403,6 +403,7 @@ button:hover {
 }
 
 .static:hover {
+    position:absolute;
   opacity:0;
     cursor:url(cursor-change.png),auto;
 }
