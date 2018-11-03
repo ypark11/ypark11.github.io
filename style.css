@@ -396,7 +396,16 @@ button:hover {
     font-size: 15px;
     line-height: 0.8;
 }
+.static {
+  position:absolute;
+  background: white;
 
+}
+
+.static:hover {
+  opacity:0;
+    cursor:url(cursor-change.png),auto;
+}
 
 
 
